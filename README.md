@@ -1,4 +1,4 @@
-# BlenderBridge
+# 3D Asset Pipeline Validator
 
 A UE5 editor plugin for a validated **Blender to Unreal Engine 5** asset pipeline.
 
