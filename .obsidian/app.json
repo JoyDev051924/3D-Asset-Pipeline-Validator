@@ -1,0 +1,25 @@
+{
+  "readableLineLength": true,
+  "showInlineTitle": true,
+  "showUnsupportedFiles": false,
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest",
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [
+    "Binaries/",
+    "Intermediate/",
+    "DerivedDataCache/",
+    "Saved/",
+    "Content/",
+    "Library/",
+    "Temp/",
+    "obj/",
+    "Logs/",
+    "node_modules/",
+    "dist/",
+    ".next/",
+    "build/",
+    "exports/",
+    ".git/"
+  ]
+}

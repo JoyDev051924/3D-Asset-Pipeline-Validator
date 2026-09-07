@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1.0",
+	"FriendlyName": "BlenderBridge",
+	"Description": "One-click, validated Blender to UE5 asset ingest: naming enforcement, smart normal-map handling, material-instance auto-wiring, and a pre-flight validation report.",
+	"Category": "Editor",
+	"CreatedBy": "Marko Stankovic (marko-builds)",
+	"CreatedByURL": "https://github.com/marko-builds",
+	"DocsURL": "https://github.com/marko-builds/BlenderBridge",
+	"SupportURL": "https://github.com/marko-builds/BlenderBridge/issues",
+	"EngineVersion": "5.7.0",
+	"CanContainContent": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "BlenderBridgeEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "PythonScriptPlugin",
+			"Enabled": true
+		}
+	]
+}

@@ -1,0 +1,28 @@
+# UE build artifacts
+Binaries/
+Intermediate/
+Build/
+DerivedDataCache/
+Saved/
+
+# Python
+__pycache__/
+*.pyc
+
+# Editor cruft
+*.VC.db
+*.opensdf
+*.sdf
+.vs/
+.vscode/
+
+# Internal AI-context / strategy (local only, not for the public repo)
+/CLAUDE.md
+/docs/PLAN.md
+
+# Obsidian: commit the shared vault config (app/core-plugins/appearance/hotkeys),
+# but ignore per-user workspace state + caches so vaults do not fight across devices/people.
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/graph.json
